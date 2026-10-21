@@ -7,10 +7,18 @@ Aplikacja do sterowania łazikiem opracowana przez Autonomy Department. Repozyto
 ## SETUP I ODPALANIE
 
 ### Wymagania
-Oprócz [ROS2-HUMBLE](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) (Ubuntu 22.04) warto upewnić się, że jest zainstalowany Qt5. Pozostałe zależności opisano poniżej:
+Oprócz [ROS2-Jazzy](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) (Ubuntu 24.04) warto upewnić się, że jest zainstalowany Qt6. 
+Instalacja Qt6:
+```bash
+sudo apt install qt6-base-dev qt6-tools-dev qt6-tools-dev-tools libqt6widgets6
+```
+
+
+Pozostałe zależności opisano poniżej:
 
 ```bash
 sudo apt install python3-pykdl
+sudo apt install ros-jazzy-xacro
 ```
 
 ### Co tutaj jest
